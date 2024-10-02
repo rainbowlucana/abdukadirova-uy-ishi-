@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.case {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.n-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .n-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+    a {
+      text-decoration: none;
+      color: #3a5f56;
+    }
+  }
+}
+.n-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header {
+  background-color: #f4f3f0;
+}
+.h-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.h-right {
+  margin: 100px 0;
+}
+.h-left {
+  h1 {
+    font-family: "Source Serif 4", serif;
+    color: #3a5f56;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #292c32;
+  }
+  button {
+    width: 118px;
+    height: 44px;
+    border-radius: 6px;
+    color: white;
+    background-color: #3a5f56;
+  }
+}
+
+.s-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  .card {
+    width: 400px;
+    height: 300px;
+    border-radius: 16px;
+    gap: 30px;
+    background-color: #f4f3f0;
+    padding: 40px 0;
+  }
+}
+.yozuv {
+  text-align: center;
+  padding: 40px 0;
+  color: #292c32;
+  h2 {
+    color: #3a5f56;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #292c32;
+  }
+}
+.a-yozuv {
+  text-align: center;
+  padding: 40px 0;
+  h2 {
+    color: #db343b;
+    font-family: "Source Serif 4", serif;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+.a-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.f-main {
+  margin: 100px 200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  background-color: #f4f3f0;
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+button{
+    width: 125px;
+    height: 48px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 7px;
+    
+}
+}
